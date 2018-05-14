@@ -1,6 +1,9 @@
 #include <stdio.h>
 #define MAX_DATA_SIZE 1000
 
+// reference : 
+// https://www.youtube.com/watch?v=MZaf_9IZCrc
+
 void swap(int data[], int a, int b)
 {
 	int tmp = data[a];
