@@ -57,6 +57,8 @@ int main(void)
 }
 
 /*
+https://www.acmicpc.net/problem/1991
+
 Input
 7
 A B C
