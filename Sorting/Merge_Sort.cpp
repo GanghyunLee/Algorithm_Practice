@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define MAX_DATA_SIZE 1000000
 
-int data[1000000] = { 0 };
-int tempData[1000000] = { 0 };
+int data[MAX_DATA_SIZE] = { 0 };
+int tempData[MAX_DATA_SIZE] = { 0 };
 
 void merge(int start, int end)
 {
