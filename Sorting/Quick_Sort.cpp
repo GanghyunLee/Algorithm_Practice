@@ -16,7 +16,7 @@ int partition(int data[], int low, int high)
 	int last = data[high];
 	int index = low;
 
-	for (register int i = low; i < high; i++)
+	for (register int i = low; i < high; i++) // 여기서 high는 pivot이므로 포함되지 않도록 한다.
 	{
 		if (data[i] <= last)
 		{
