@@ -1,4 +1,15 @@
 // dsexpert 3123 : Å°·Î°Å(Keylogger)
+/*
+[input]
+2
+<<BP<A>>Cd-
+ThIsIsS3Cr3t
+
+[answer]
+BAPC
+ThIsIsS3Cr3t
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
