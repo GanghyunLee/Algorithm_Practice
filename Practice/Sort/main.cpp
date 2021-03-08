@@ -9,6 +9,10 @@ void SelectionSort()
 {
 }
 
+void BubbleSort()
+{
+}
+
 void Init()
 {
 	arr[0] = 80;
@@ -32,6 +36,8 @@ int main(void)
 {
 	Init();
 	SelectionSort();
+	Print();
+	BubbleSort();
 	Print();
 
 	return 0;
