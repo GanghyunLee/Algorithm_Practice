@@ -51,6 +51,25 @@ void BubbleSort()
 	}
 }
 
+void InsertionSort()
+{
+	int _tmp, j;
+
+	for (int i = 1; i < N; i++)
+	{
+		_tmp = arr[i];
+
+		for (j = i - 1; j >= 0; j--)
+		{
+			if (arr[j] > _tmp)
+				arr[j + 1] = arr[j];
+			else
+				break;
+		}
+
+		arr[j + 1] = _tmp;
+	}
+}
 
 void Print()
 {
@@ -64,6 +83,10 @@ int main(void)
 {
 	Init();
 	SelectionSort();
+	Print();
+	BubbleSort();
+	Print();
+	InsertionSort();
 	Print();
 
 	return 0;

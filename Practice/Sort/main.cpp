@@ -13,6 +13,10 @@ void BubbleSort()
 {
 }
 
+void InsertionSort()
+{
+}
+
 void Init()
 {
 	arr[0] = 80;
@@ -38,6 +42,8 @@ int main(void)
 	SelectionSort();
 	Print();
 	BubbleSort();
+	Print();
+	InsertionSort();
 	Print();
 
 	return 0;
