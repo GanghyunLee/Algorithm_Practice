@@ -84,8 +84,10 @@ int main(void)
 	Init();
 	SelectionSort();
 	Print();
+	Init();
 	BubbleSort();
 	Print();
+	Init();
 	InsertionSort();
 	Print();
 
