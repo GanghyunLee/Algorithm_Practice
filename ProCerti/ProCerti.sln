@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "도서관정리", "ProCerti
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "우선순위큐_노드값수정", "우선순위큐_노드값수정\우선순위큐_노드값수정.vcxproj", "{6E459180-C87F-4DC1-AD18-7AA0003B6679}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SNS", "SNS\SNS.vcxproj", "{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{6E459180-C87F-4DC1-AD18-7AA0003B6679}.Release|x64.Build.0 = Release|x64
 		{6E459180-C87F-4DC1-AD18-7AA0003B6679}.Release|x86.ActiveCfg = Release|Win32
 		{6E459180-C87F-4DC1-AD18-7AA0003B6679}.Release|x86.Build.0 = Release|Win32
+		{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}.Debug|x64.ActiveCfg = Debug|x64
+		{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}.Debug|x64.Build.0 = Debug|x64
+		{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}.Debug|x86.Build.0 = Debug|Win32
+		{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}.Release|x64.ActiveCfg = Release|x64
+		{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}.Release|x64.Build.0 = Release|x64
+		{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}.Release|x86.ActiveCfg = Release|Win32
+		{4E9BDD28-D163-454A-82DC-E7B9EF925A9A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
